@@ -1,4 +1,4 @@
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-a.png'
 import { Link } from 'react-router-dom'
 import './index.scss';
 
@@ -8,7 +8,7 @@ const Home = () => {
       <div className="text-zone">
         <h1>Hi, <br/> I'm
         <img src={LogoTitle} alt='developer'  />
-        Amadeus
+        madeus
         <br/>
         Full Stack Developer
         </h1>
