@@ -18,8 +18,7 @@ const Layout = () =>{
             </span>
         </div>
       </div>
-    )
-    
+  )    
 }
 
 export default Layout

@@ -14,20 +14,20 @@
     font-family: 'Coolvetica';
     font-weight:  400;
 
-    &::before{
+    &:before{
       content: '<h1>';
-      font-family: 'La Belle Aurore';
+      font-family: 'La Belle Aurore',cursive;
       color: #ffd700;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
-      left: 15px;
+      left: -15px;
       opacity: 0.6;
     }
 
-    &::after{
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
+    &:after{
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
       color:#ffd700;
       font-size: 18px;
       position: absolute;
@@ -39,7 +39,7 @@
 
     img{
       width: 52px;
-      margin-left: 25px;
+      margin-left: 20px;
       opacity: 0;
       height: auto;
       animation: rotateIn 1s linear both;
